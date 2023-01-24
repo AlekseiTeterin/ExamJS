@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "css/courseStyle.css">
+    <link rel = "stylesheet" href = "css/menu.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/form.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>04_05_2022 course LP</title>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <div class="logo"><img src="images/magicut_1623667529526.png" height="90px" alt="logo"></div>
+            <div class="logo-text">Туры в Адыгею из Липецка 
+                <br> <a href='tel:8(4742)232-12-23'>8(4742)232-12-23</a> 
+                <br> <a href='tel:+7(915)553-12-23'>+7(915)553-12-23</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">Мы в соцсетях:</div>
+            <div class="right1" id="soc">
+                <script src="https://yastatic.net/share2/share.js"></script>
+                <div class="ya-share2" data-curtain data-size="l" data-shape="round" 
+                data-services="vkontakte,odnoklassniki,telegram,viber,whatsapp"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="first">
+            <div>
+                <ul>
+                    <li><a class="smooth-scroll" href="#element1">Записаться на тур или задать вопрос</a></li>
+                    <li><a class="smooth-scroll" href="#element2">Информация об Адыгее</a></li>
+                    <li><a class="smooth-scroll" href="#element3">Предлагаемые варианты размещения</a></li>
+                </ul>
+            </div>
+            <div>
+                <div><img src="images/DSC_8091-DSC_8093-a.jpg" width= "100%" alt="mainImg"></div>
+            </div>
+            <div class="weather" id="weather">
+                <h2 class="weather__title">Погода в Адыгее сейчас:</h2>
+                <div class="weather__city"></div>
+                <div class="weather__forecast"></div>
+                <div class="weather__desc"></div>
+                <div class="weather__hum"></div>
+                
+                
+            </div>
+            <div>
+                <div class="menuBar">
+                    <div class="punkt">
+                        <p>Даты ближайших туров</p>
+                        <div class="vkladka"><a>06.05.22 - 11.05.22</a></div>
+                        <div class="vkladka"><a>19.05.22 - 23.05.22</a></div>
+                        <div class="vkladka"><a>26.05.22 - 30.05.22</a></div>
+                    </div>
+                    <div class="punkt">
+                        <p>Конные туры</p>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                    </div>
+                    <div class="punkt">
+                        <p>Автотуры по Адыгее</p>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                    </div>
+                    <div class="punkt">
+                        <p>Туры на майские праздники</p>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                    </div>
+                    <div class="punkt">
+                        <p>Новый год в горах</p>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                        <div class="vkladka"><a>Chto-to1</a></div>
+                    </div>
+                </div>
+                <form action="" id="element1" class="form" method="get">
+                    <h2>Забронировать тур или заказать обратный звонок менеджера</h2>
+                    <div class="inline">
+                        <div class="formCol">
+                            <div class="txt">Ваши контактные данные</div>
+                            <div class="form1"><input type="email" name="e-mail" placeholder="Ваш телефон, e-mail или соцсеть"></div>
+                        </div>
+                        <div class="formCol">
+                            <div class="txt">Планируемая дата начала тура</div>
+                            <div class="form1"><input type="date" name="date" placeholder="Дата тура"></div>
+                        </div>
+                        <div class="formCol">
+                            <div class="txt">Сколько вас человек</div>
+                            <div>
+                                <select name="select" aria-placeholder="Сколько вас?">
+                                <option value="one">1</option>
+                                <option value="two">2</option> 
+                                <option value="three">3</option> 
+                                <option value="four">4</option> 
+                                <option value="five">5</option> 
+                                <option value="six">6</option> 
+                                <option value="more">>6</option> 
+                            </select></div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="offers">
+                                <input type="checkbox" id="offers" name="agreement">
+                                <span>Хочу получать предложения об интересных турах</span>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Отправить данные">
+                    </div>
+                </form>
+                <div class="mainBlock" id="element2">
+                    <div class="textBlock">
+                        <b>Горы Адыгеи</b> стоят того, чтобы их любили, воспевали, восторгались их сказочной 
+                        красотой и суровостью, они гостеприимны и хлебосольны, их леса богаты фруктами и ягодами. 
+                        Они стелют к вашим ногам самый дорогой, самый пышный ковёр, сотканный из цветущих альпийских лугов, 
+                        обрамлённый ожерельем из белоснежных гор, суровых скал, жемчужных водопадов и глубоких теснин.
+                        <b>Горная Адыгея</b> - как самая заветная мечта, мир заоблачных грёз, окунаясь в который, 
+                        чувствуешь блаженство, в котором ты не в силах себе отказать. Она создана богами для 
+                        райской жизни на Земле. Создатель предусмотрел здесь всё: плодородные земли, 
+                        сказочно красивые долины из душистых лечебных трав, тёмно-зелёных остроконечных пихт, 
+                        бескрайней синевы неба, белоснежных гор, устремившихся ввысь.
+                        Но горная Адыгея - это не только удивительное сочетание животворящего солнца, кристально-чистого 
+                        горного воздуха, благодатных лесов, скалистых теснин с изумрудными водопадами, суровых вершин 
+                        и уникальных достопримечательностей, это и страна истинного гостеприимства, с самобытной древней 
+                        культурой, сохранившимися горскими обычаями и старинными традициями, таящая в себе множество мифов, 
+                        легенд и неразгаданных тайн.
+                    </div>
+                    <div class="pictures">
+                        <div><img src="images/a1.jpg" width= "500px" height= "250px" alt="pict1"></div>
+                        <div><img src="images/a2.jpg" width= "500px" height= "250px" alt="pict2"></div>
+                        <div><img src="images/a3.jpg" width= "500px" height= "250px" alt="pict3"></div>
+                        <div><img src="images/a4.jpg" width= "500px" height= "250px" alt="pict4"></div>
+                    </div>
+                    <div class="textBlock">
+                        По количеству уникальных природных памятников, нетронутого дикого ландшафта, восхитительно красивых мест, 
+                        богатству растительного и животного мира она во многом превосходит знаменитые европейские курорты.
+                        Что же привлекает туристов в этих местах? Иностранцы, которых трудно чем-то удивить, восхищенно отмечают 
+                        красоту этих необжитых мест. Сравнивая увиденное со Швейцарией и с горными массивами Европы, они утверждают, 
+                        что первозданные горы Адыгеи не уступают им по красоте.
+                        Круглый год здесь наблюдается паломничество туристов, и каждый находит для себя место по душе. Многие 
+                        очарованы красотой и поэзией водопадов. Других манят горные просторы. Здесь действует один из первых 
+                        туристических маршрутов России: через горы — к морю. Бывший 30-й Всесоюзный маршрут по-прежнему покоряет 
+                        сердца туристов невероятной, завораживающей красотой. Горная жемчужина Гузерипль, восхитительные просторы 
+                        Лагонакского нагорья, горные вершины Б.Тхача, Оштена, Фишта, ущелье Цице, долины Даха, Сахрая, Фарса, 
+                        Курджипса привлекают многих и многих.
+                        Сама природа в отпечатках древних растений и окаменелых морских животных сохранила летопись своего исторического 
+                        прошлого. Окаменевшие гигантские раковины — аммониты, возрастом в 150 млн. лет, встречаются в руслах горных 
+                        ручьев и рек.
+                    </div>
+                    <div class="pictures2">
+                        <div><img src="images/a5.jpg" width= "1150px" height= "250px" alt="pict1"></div>
+                        <div><img src="images/a6.jpg" width= "1150px" height= "250px" alt="pict2"></div>
+                        <div><img src="images/a7.jpg" width= "1150px" height= "250px" alt="pict3"></div>
+                        <div><img src="images/a8.jpg" width= "1150px" height= "250px" alt="pict4"></div>
+                    </div>
+                    <h3>Варианты размещения</h3>
+                    <div class="subscribe" id="element3">
+                        <div class="card">
+                            <div class="c1" id="blue-line">Турбаза "Горная"</div>
+                            <div class="c2prise"> от 2000 руб.</div>
+                            <div class="c3img"><img src="images/Gornaya.webp" width= "100%" height="110px" alt="gornaya"></div>
+                            <div class="c4">Каменномостский</div>
+                            <div class="button" id="blue"><a href="https://otdih.nakubani.ru/turbaza-gornaya/">Подробнее</a></div>
+                        </div>   
+                        <div class="card">
+                            <div class="c1" id="blue-line">ГК "Эдем"</div>
+                            <div class="c2prise"> от 4000 руб.</div>
+                            <div class="c3img"><img src="images/Edem.webp" width= "100%" height="110px" alt="edem-guzeripl"></div>
+                            <div class="c4">Гузерипль</div>
+                            <div class="button" id="blue"><a href="https://otdih.nakubani.ru/edem-guzeripl/">Подробнее</a></div>
+                        </div>  
+                        <div class="card">
+                            <div class="c1" id="blue-line">БО "Горная Слобода"</div>
+                            <div class="c2prise"> от 2500 руб.</div>
+                            <div class="c3img"><img src="images/gSloboda.webp" width= "100%" height="110px" alt="gornaya sloboda"></div>
+                            <div class="c4">ст. Даховская</div>
+                            <div class="button" id="blue"><a href="https://otdih.nakubani.ru/gornaya-sloboda/">Подробнее</a></div>
+                        </div>  
+                        <div class="card">
+                            <div class="c1" id="blue-line">Барская усадьба</div>
+                            <div class="c2prise"> от 4500 руб.</div>
+                            <div class="c3img"><img src="images/barskaya.jpg" width= "100%" height="110px" alt="barskaya"></div>
+                            <div class="c4">Каменномостский</div>
+                            <div class="button" id="blue"><a href="https://travel.yandex.ru/hotels/republic-of-adygea/barskaia-usadba/?adults=2&checkinDate=2022-05-18&checkoutDate=2022-05-19&childrenAges=&searchPagePollingId=c790ebb1c1931f9a008a30c4651a0cb-0-newsearch&seed=portal-hotels-search">Подробнее</a></div>
+                        </div>  
+                        <div class="card">
+                            <div class="c1" id="blue-line">Гостиница 44-я широта</div>
+                            <div class="c2prise"> от 6000 руб.</div>
+                            <div class="c3img"><img src="images/44.jpg" width= "100%" height="110px" alt="44shirota"></div>
+                            <div class="c4">ст. Даховская</div>
+                            <div class="button" id="blue"><a href="https://travel.yandex.ru/hotels/republic-of-adygea/44-shirota/?adults=2&checkinDate=2022-05-18&checkoutDate=2022-05-19&childrenAges=&searchPagePollingId=c790ebb1c1931f9a008a30c4651a0cb-0-newsearch&seed=portal-hotels-search">Подробнее</a></div>
+                        </div>  
+                        <div class="card">
+                            <div class="c1" id="blue-line">Парк Хаджох</div>
+                            <div class="c2prise"> от 4000 руб.</div>
+                            <div class="c3img"><img src="images/Hadjoh.jpg" width= "100%" height="110px" alt="hadjoh"></div>
+                            <div class="c4">Каменномостский</div>
+                            <div class="button" id="blue"><a href="https://travel.yandex.ru/hotels/republic-of-adygea/park-khadzhokh/?adults=2&checkinDate=2022-05-18&checkoutDate=2022-05-19&childrenAges=&searchPagePollingId=c790ebb1c1931f9a008a30c4651a0cb-0-newsearch&seed=portal-hotels-search">Подробнее</a></div>
+                        </div>  
+                    </div>
+                </div>
+                <form action="" class="form" method="get">
+                    <h2>Забронировать тур или заказать обратный звонок менеджера</h2>
+                    <div class="inline">
+                        <div class="formCol">
+                            <div class="txt">Ваши контактные данные</div>
+                            <div class="form1"><input type="email" name="e-mail" placeholder="Ваш телефон, e-mail или соцсеть"></div>
+                        </div>
+                        <div class="formCol">
+                            <div class="txt">Планируемая дата начала тура</div>
+                            <div class="form1"><input type="date" name="date" placeholder="Дата тура"></div>
+                        </div>
+                        <div class="formCol">
+                            <div class="txt">Сколько вас человек</div>
+                            <div>
+                                <select name="select" aria-placeholder="Сколько вас?">
+                                <option value="one">1</option>
+                                <option value="two">2</option> 
+                                <option value="three">3</option> 
+                                <option value="four">4</option> 
+                                <option value="five">5</option> 
+                                <option value="six">6</option> 
+                                <option value="more">>6</option> 
+                            </select></div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="offers">
+                                <input type="checkbox" id="offers" name="agreement">
+                                <span>Хочу получать предложения об интересных турах</span>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Отправить данные">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="textBlock" id="foot">Сайт создан 04.05.2022 в качестве курсовой работы по курсу web студентом группы ПВ-011 Тетериным А.А.</div>
+        <div class="right1" id="foot">
+            <script src="https://yastatic.net/share2/share.js"></script>
+            <div class="ya-share2" data-curtain data-size="l" data-shape="round" 
+            data-services="vkontakte,odnoklassniki,telegram,viber,whatsapp"></div>
+        </div>
+    </footer>
+    <script src="./js/weather.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script src="./js/smoothscroll.js"></script>
+    <script src="js/scrollScript.js"></script>
+    <script src="js/myScriptForSlick.js"></script>
+    
+</body>
+</html>

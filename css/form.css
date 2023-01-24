@@ -1,0 +1,86 @@
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(105, 181, 228);
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgb(7, 119, 189);
+    
+}
+.inline{
+
+    display: flex;
+    justify-content: space-around;
+}
+.formCol{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: xx-large;
+    text-align: center;
+}
+.txt{
+    height: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.form1{
+    width: 100%; 
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgb(7, 119, 189);
+    border-radius: 10px;
+    background-color: #6dacbf;
+    padding-left: 10px;
+}
+label{
+    margin-left: 5vw;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: start;
+}
+label>input{
+    width: 10%;
+}
+input#offers{
+    width: 15px;
+    height: 15px;
+}
+span{
+    padding-top: 2px;
+}
+select{
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgb(7, 119, 189);
+    border-radius: 10px;
+    background-color: #6dacbf;
+    
+}
+input[type=date]{
+    font-size: larger;
+    width: 100%;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 34%;
+    height: 60px;
+    background-color: rgb(12, 41, 137);
+    font-size:medium;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+}

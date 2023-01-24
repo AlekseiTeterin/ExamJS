@@ -1,0 +1,71 @@
+.subscribe{
+    width: 100%;
+    background: rgb(130, 183, 217);
+    box-shadow: 0 0 10px 5px rgb(7, 119, 189);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body > div > div{
+    float: left;
+}
+
+.card{
+    width: 160px;
+    height: 270px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 29px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    text-align: center;
+    background-color: #fff;
+    font-family:'Trebuchet MS';
+}
+    
+.card:hover{   
+    transform: scale(1.5);
+}
+
+.c1{
+    height: 40px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+#blue-line{
+    border-bottom: 4px solid rgba(13, 77, 226, 0.838);
+}
+
+.c2prise{
+    height: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size:larger;
+}
+.c3img{
+    margin-top: 5px;
+    
+}
+.c4{
+    margin-top: 10px;
+    font-size:smaller;
+    font-weight: bold;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 34px;
+    padding-top: 3px;
+    width: 90px;
+    height: 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#blue{
+    background-color: rgba(13, 77, 226, 0.838);
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(130, 183, 217);
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid darkblue;
+    justify-content: space-between;
+    background: rgb(130, 183, 217);
+    z-index: 100;
+}
+.left, .right{
+    width: 40vw;
+    display: flex;  
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right1{
+    text-decoration: underline;
+    font-size:larger;
+    padding-right: 2vw;
+    height: 50%;
+    text-align: end;
+}
+#soc{
+    height: 90%;
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 1vw;
+}
+.logo-text{
+    margin-left: 1vw;
+    padding-top: 20px;
+}
+.userName{
+    margin-right: 1vw;
+    padding-top: 40px;
+}
+.userLogo{
+    float: right;
+    padding-top: 20px;
+    padding-right: 1vw;
+}
+main{
+    margin:0;
+    margin-top: 102px;
+    display: flex;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.menuBar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 100px;
+}
+h3{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+#weather{
+    margin-left: 20%;
+    width: 60%;
+    font-size: x-large;
+    font-weight: bold;
+    
+} 
+.weather__city{
+    padding-left: 35%;
+    color: rgb(188, 44, 7);
+}
+.weather__forecast{
+    text-align: right;
+    padding-right: 20%;
+    font-weight: bolder;
+    color: rgb(47, 212, 53);
+}
+.weather__desc{
+    padding-left: 10%;
+}
+
+.weather__hum{
+    text-align: right;
+    padding-right: 10%;
+    font-weight: bolder;
+    color: rgb(212, 206, 39);
+}
+.mainblock{
+    display: flex;
+    flex-direction: column;
+}
+.textBlock{
+    margin: 20px;
+    font-size: larger;
+}
+.pictures{
+    margin-left: 5%;
+    width: 90%;
+    /* z-index: -1; */
+}
+.pictures2{
+    margin-left: 5%;
+    width: 90%;
+    /* z-index: -1;  */
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid darkblue;
+    justify-content: space-between;
+}
+
+#foot{
+    width: 45%;
+    padding-top: 5px;
+}
+
+.pictures2:hover{
+    z-index: 10;
+}
+@media(max-width:680px){
+    .left, .right{
+        width: 48%;
+    }
+}
+
+@media(max-width:600px){
+
+    header{
+        height: 200px;
+        flex-direction: column;
+    }
+    main{
+        margin-top: 202px;
+    }
+    .left, .right{
+        width: 90%;
+    }
+}
+

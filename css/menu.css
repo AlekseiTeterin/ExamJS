@@ -1,0 +1,32 @@
+.punkt{
+    width: 300px;
+    text-align: center;
+}
+.punkt>p{
+    margin: 0;
+}
+.vkladka{
+    width: 100%;
+    display: none;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.menuBar>div:hover .vkladka{
+    display: flex;
+}
+
+a:hover{
+    background: chartreuse;
+}
+
+@media(max-width:900px){
+    .vkladka{
+        padding-left: 40px;
+    }
+}
+@media(max-width:600px){
+    .vkladka{
+        padding-left: 15px;
+    }
+}
